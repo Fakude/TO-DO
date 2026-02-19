@@ -8,7 +8,7 @@
 }
 body{
     height:100vh;
-    background: linear-gradient( rgb(255, 255, 255),#127cf5);
+    background: linear-gradient( rgb(255, 255, 255),#2f3030);
 }
 .container{
     border:2px solid white;
