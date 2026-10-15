@@ -1,17 +1,1 @@
-<html>
-    <head>
-        <title>Nhlanhla's To Do List</title>
-        <link rel='stylesheet' type='text/css' media='screen' href='list.css'>
-    </head>
-    <body>
-        <div class="container">
-            <div id="newtask">
-                <input type="text" placeholder="Task to be done...">
-                <button id="push">Add</button>
-                
-            </div>
-            <div id="task">
-            </div>
-            <script src="list.js"></script>
-        </body>
-    <html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clear | Task manager</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="list.css"></head><body><main><header><a class="brand" href=".">clear<span>.</span></a><p data-date></p></header><section class="intro"><p class="eyebrow">Personal task manager</p><h1>Make room for<br><em>what matters.</em></h1><p>Plan the next small thing. Keep it clear.</p></section><section class="app"><form data-form><input name="title" placeholder="What needs doing?" required maxlength="120" autocomplete="off"><select name="priority" aria-label="Priority"><option value="medium">Medium priority</option><option value="high">High priority</option><option value="low">Low priority</option></select><input name="due" type="date" aria-label="Due date"><button>Add task <span>+</span></button></form><div class="toolbar"><div class="filters" role="group"><button class="active" data-filter="all">All</button><button data-filter="active">Active</button><button data-filter="completed">Completed</button></div><p data-count>0 tasks</p></div><ul data-list></ul><div class="empty" data-empty><strong>Your list is clear.</strong><span>Add one small next step to begin.</span></div><button class="clear-completed" data-clear>Clear completed</button></section></main><script src="list.js"></script></body></html>
